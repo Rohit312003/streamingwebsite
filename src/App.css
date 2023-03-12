@@ -1,0 +1,31 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+.app{
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  /* for making it in center */
+  
+  display:grid;
+  place-items: center;
+}
+.app_videos{
+border-radius: 5%;
+
+position: relative;
+height: 780px;;
+overflow: scroll;
+width:80%;
+scroll-snap-type: y mandatory;
+}
+
+/* chrome and safari */
+.app_videos::-webkit-scrollbar{
+  display:none;
+}
+
+/* firefox */
+.app_videos{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

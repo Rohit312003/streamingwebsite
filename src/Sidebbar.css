@@ -1,0 +1,17 @@
+
+.sideBarr{
+    position: absolute;
+    color: white;
+   
+    bottom:30%;
+    right:0px;
+    
+}
+
+.videoside_barbutton{
+
+padding: 20px;
+text-align: center;
+
+
+}
